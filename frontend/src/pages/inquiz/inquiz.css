@@ -1,0 +1,141 @@
+.section-inquiz{
+    margin: 0;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 100vh;
+    background-image: url(https://cf.quizizz.com/themes/v2/classic/bg_image.jpg);
+  color: #fff;
+}
+.container-inquiz {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .header-inquiz {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .close-btn,
+  .settings-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .question-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .question-counter {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .question-text {
+    background-color: #6a1b9a;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .response-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  textarea {
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .response-actions {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 10px;
+  }
+  
+  .show-work-btn,
+  .upload-images-btn {
+    background-color: #9575cd;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .submit-btn {
+    background-color: #1de9b6;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .option-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    cursor: pointer;
+  }
+  .option-item{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  .selected{
+    background-color: #85618D;
+  }
+  .option-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .option-item.selected {
+    background-color: #85618D;
+    color: white;
+  }
+  .option-item.correct {
+    background-color: green;
+    color: white;
+  }
+  
+  .option-item.incorrect {
+    background-color: red;
+    color: white;
+  }

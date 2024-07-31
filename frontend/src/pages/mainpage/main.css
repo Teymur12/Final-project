@@ -1,0 +1,165 @@
+.dashboard {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 90%;
+    gap: 20px;
+}
+.section1-main{
+      background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .join-section {
+    width: 60%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+  }
+  
+  .join-section input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 50%;
+    color: black;
+  }
+  
+  .join-section button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #6a1b9a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  
+  .join-section button:hover{
+    background-color: #AE7DD9;
+  }
+
+  .user-info {
+    display: flex;
+    justify-content: flex-end;
+    width: 35%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  .user-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f3e5f5;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .recent-activity {
+    width: 90%;
+    margin-bottom:20px;
+  }
+  
+  .recent-activity h2 {
+    margin-bottom: 20px;
+  }
+  
+  .activity-cards {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .activity-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f3e5f5;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .activity-info {
+    margin-bottom: 10px;
+  }
+  
+  .quizzes{
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .quiz img{
+    width: 255px;
+    height: 120px;
+    border-radius: 5px;
+  }
+  .quiz{
+    background-color: white;
+    height: 204px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: inset;
+  }
+  .quiz button{
+    color: black;
+  }
+  .quiz button:hover{
+    background-color: white;
+    color: black;
+  }
+  .cancel-btn{
+    background-color: #8854c0;
+    width: 216px;
+    height: 64px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    border: none;
+  }
+
+  .start-quiz{
+    border: none;
+    width: 216px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    height: 64px;
+    background-image: url(https://cf.quizizz.com/game/img/ui/play-icon-bg.png);
+    background-color: #00c985;   
+  }
